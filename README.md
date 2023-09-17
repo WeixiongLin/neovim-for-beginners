@@ -4,6 +4,12 @@
 
 https://github.com/neovim/neovim/wiki/Installing-Neovim
 
+```bash
+curl https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+# vi ~/.bashrc
+export PATH=$PATH:/new/path
+```
+
 Add path to env
 
 ## Plugin
