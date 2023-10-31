@@ -32,3 +32,7 @@ return { -- a table of overrides/changes to the astrodark theme
   Visual = { bg = "#515c65" },
 }
 ```
+
+
+如果是用的 lazy.nvim 进行插件管理, 那么你安装的 plugin 位置在 `~/.local/share/nvim/lazy/`。
+如果想要进行一些 HACK 可以从这个路径下操作试试。
