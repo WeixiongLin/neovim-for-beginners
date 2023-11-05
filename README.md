@@ -36,3 +36,11 @@ return { -- a table of overrides/changes to the astrodark theme
 
 如果是用的 lazy.nvim 进行插件管理, 那么你安装的 plugin 位置在 `~/.local/share/nvim/lazy/`。
 如果想要进行一些 HACK 可以从这个路径下操作试试。
+
+## Config
+
+刚拿到手的 neovim 已经默认帮我们做了很多方便的设置, 但是难免有一些地方是自己不满意的, 看看怎么配置吧。
+
+### AutoIndentation
+neovim 是有自动缩进的, 但是对于 python 来说, 自动缩进最好把 indentation 统一成 space 而不是 Tab.
+教程: [Setting autoindentation to spaces in neovim?](https://stackoverflow.com/questions/51995128/setting-autoindentation-to-spaces-in-neovim)
