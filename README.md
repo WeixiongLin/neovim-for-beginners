@@ -45,6 +45,11 @@ return { -- a table of overrides/changes to the astrodark theme
 
 刚拿到手的 neovim 已经默认帮我们做了很多方便的设置, 但是难免有一些地方是自己不满意的, 看看怎么配置吧。
 
+### Number
+- 关闭相对行号 `set nornu`
+- 打开相对行号 `set rnu`
+
+
 ### AutoIndentation
 neovim 是有自动缩进的, 但是对于 python 来说, 自动缩进最好把 indentation 统一成 space 而不是 Tab.
 教程: [Setting autoindentation to spaces in neovim?](https://stackoverflow.com/questions/51995128/setting-autoindentation-to-spaces-in-neovim)
