@@ -45,9 +45,13 @@ return { -- a table of overrides/changes to the astrodark theme
 
 刚拿到手的 neovim 已经默认帮我们做了很多方便的设置, 但是难免有一些地方是自己不满意的, 看看怎么配置吧。
 
-### Number
+### 常用命令
+
 - 关闭相对行号 `set nornu`
 - 打开相对行号 `set rnu`
+
+- 关闭 buffer `b + c`
+- 代码注释 `space + /`
 
 
 ### AutoIndentation
