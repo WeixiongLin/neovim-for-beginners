@@ -12,6 +12,10 @@ export PATH=$PATH:/new/path
 
 Add path to env
 
+P.S. Neovim 的配色在比较低的 tmux 版本下会有问题, 解决的方法其实就是自己装一个本地的 tmux, 我这里安装的最新 tmux-3.3a 没有问题。
+参考 [Install tmux without root access](https://superuser.com/questions/1259140/how-to-install-tmux-locally-without-root-access) 即可。
+
+
 ## Plugin
 
 第一次不熟悉安装的时候建议先体验一下 [Astronvim](https://astronvim.com/).
