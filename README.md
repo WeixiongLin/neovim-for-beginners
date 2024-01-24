@@ -50,7 +50,7 @@ return { -- a table of overrides/changes to the astrodark theme
 - 关闭相对行号 `set nornu`
 - 打开相对行号 `set rnu`
 
-- 关闭 buffer `b + c`
+- 关闭 buffer `space + c`
 - 代码注释 `space + /`
 
 
