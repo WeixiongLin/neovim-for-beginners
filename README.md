@@ -56,4 +56,7 @@ return { -- a table of overrides/changes to the astrodark theme
 
 ### AutoIndentation
 neovim 是有自动缩进的, 但是对于 python 来说, 自动缩进最好把 indentation 统一成 space 而不是 Tab.
-教程: [Setting autoindentation to spaces in neovim?](https://stackoverflow.com/questions/51995128/setting-autoindentation-to-spaces-in-neovim)
+
+对我来说简单设置 `set expandtab` 就可以。
+
+具体教程: [Setting autoindentation to spaces in neovim?](https://stackoverflow.com/questions/51995128/setting-autoindentation-to-spaces-in-neovim)
